@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+body {
+	font-family: 'Nunito', sans-serif;
+}
+
+/* all btn class */
+.btn {
+	border-radius: 5px;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 10px 15px;
+	margin: 10px 0;
+	font-size: 18px;
+	line-height: 25px;
+	border: 0;
+}
+
+.btn-light {
+	background-color: #F7941E;
+	color: #FFFFFF;
+}
+
+.btn-light-border {
+	background-color: #ffffff;
+	color: #F7941E;
+	border: 1px solid #F7941E;
+}
+
+.btn-dark {
+	color: #FFFFFF;
+	background-color: #231F20;
+}
+
+.btn-dark-border {
+	background-color: #ffffff;
+	color: #000;
+	border: 1px solid #000;
+}
