@@ -1,0 +1,195 @@
+	<!--
+	- Каждой секции сделал класс, для управления внутреними елементами
+	- Kинки в футере решил сделать таким образом, с помощью css все можно красиво оформить
+	- Форму решил реализовать с помощью талицы, решил не колхозить (хотя таблицы...)
+	-->
+	<!DOCTYPE html>
+	<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Home task #5</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+
+	<body>
+		<header>
+			<img src="img/giftFinder.png" alt="Logo" class="logo-header">
+			<nav>
+				<ul>
+					<li>Home</li>
+					<li>About Us</li>
+					<li>Services</li>
+					<li>Blogs</li>
+				</ul>
+			</nav>
+			<a href="#" class="btn btn-light-border">Gift Finder</a>
+		</header>
+		<main>
+			<!-- Start section #1 -->
+			<section class="first-section">
+				<div>
+					<h1>Find a gift for your wife or girlfriend</h1>
+					<p>
+						Struggling to find a gift for your wife or girlfriend? No problem!
+					</p>
+					<a href="#">Find gift now</a>
+				</div>
+				<img src="img/Background.jpg" alt="Background #1" class="btn btn-light">
+			</section>
+			<!-- End section #1 -->
+
+			<!-- Start section #2 -->
+			<section class="second-section">
+				<img src="img/MediaBackground.jpg" alt="Background #2">
+				<div>
+					<h2>How we work</h2>
+					<p>We’ve actually already asked hundreds of women what they want, and made a database with the results. All
+						you have
+						to do is take our short survey that only takes seconds, and our proprietary algorithm will match you
+						with
+						a few
+						perfect gift options.</p>
+					<a href="#" class="btn btn-light-border">Learn More</a>
+				</div>
+			</section>
+			<!-- End section #2 -->
+
+			<!-- Start section #3 -->
+			<section class="third-section">
+				<h2>Gifts for all Occasions</h2>
+				<p>“Try our web app to find the best gifts for all occasions”</p>
+				<div class="gifts-list">
+					<figure>
+						<img src="img/Rectangle.jpg" alt="Birthday">
+						<figcaption>
+							<p>Birthday</p>
+							<a href="#">See More →</a>
+						</figcaption>
+					</figure>
+					<figure>
+						<img src="img/Rectangle-2.jpg" alt="Anniversary">
+						<figcaption>
+							<p>Anniversary</p>
+							<a href="#">See More →</a>
+						</figcaption>
+					</figure>
+					<figure>
+						<img src="img/Rectangle-3.jpg" alt="Valentine's Day">
+						<figcaption>
+							<p>Valentine's Day</p>
+							<a href="#">See More →</a>
+						</figcaption>
+					</figure>
+					<figure>
+						<img src="img/Rectangle-4.jpg" alt="Christmas">
+						<figcaption>
+							<p>Christmas</p>
+							<a href="#">See More →</a>
+						</figcaption>
+					</figure>
+				</div>
+			</section>
+			<!-- End section #3 -->
+
+			<!-- Start section #4 -->
+			<section class="fourth-section">
+				<h2>Ready to get started?</h2>
+				<a href="#" class="btn btn-dark">Find gift now</a>
+			</section>
+			<!-- End section #4 -->
+
+			<!-- Start section #5 -->
+			<section class="fifth-section">
+				<h2>Find gift now</h2>
+				<form action="/" get="post">
+					<table>
+						<tbody>
+							<tr>
+								<td>
+									<label for="name">Your name *</label>
+									<input type="text" name="usrName" id="name">
+								</td>
+								<td>
+									<label for="email">Your email *</label>
+									<input type="email" name="usrEmail" id="email">
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label for="phone">Your phone *</label>
+									<input type="number" name="usrPhone" id="phone">
+								</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td><input type="button" value="SUBMIT" class="btn btn-light"></td>
+								<td><input type="reset" value="RESET" class="btn btn-dark-border"></td>
+							</tr>
+						</tbody>
+					</table>
+				</form>
+			</section>
+			<!-- End section #5 -->
+
+			<!-- Start section #6 -->
+			<section class="sixth-section">
+				<h2>Our Best Blogs Ever</h2>
+				<p>“Try our blog to find the best tips and tricks to select your gift”</p>
+				<div class="blog-section">
+					<img src="img/Media.jpg" alt="">
+					<div>
+						<p>Mr. John Doe</p>
+						<h2>
+							The best way to wish your wife
+						</h2>
+						<a href="#">Read More</a>
+					</div>
+				</div>
+			</section>
+			<!-- End section #6 -->
+
+			<!-- Start section #7 -->
+			<section class="seventh-section">
+				<article>
+					<h3>Database to find the gifts for your girlfriend</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+						dolore...
+					</p>
+					<a href="#">Read More</a>
+				</article>
+				<article>
+					<h3>How Artificial Intelligence read your mind to find the best gift</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+						dolore...
+					</p>
+					<a href="#">Read More</a>
+				</article>
+			</section>
+			<!-- End section #7 -->
+
+		</main>
+		<footer>
+			<ul class="nav-footer">
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#"><img src="img/giftFinderYellow.png" alt="Logo footer"></a></li>
+				<li><a href="#">Service</a></li>
+				<li><a href="#">Blog</a></li>
+			</ul>
+			<ul class="social-btn">
+				<li><a href="#">fb</a></li>
+				<li><a href="#">tw</a></li>
+				<li><a href="#">ins</a></li>
+				<li><a href="#">you</a></li>
+				<li><a href="#">pin</a></li>
+			</ul>
+			<p class="copyright">
+				© 2010 — 2020 Privacy — Terms
+			</p>
+		</footer>
+	</body>
+
+	</html>

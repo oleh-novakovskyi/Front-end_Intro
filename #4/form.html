@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Form</title>
+</head>
+
+<body>
+	<main>
+		<section>
+			<form action="/" method="POST">
+				<table>
+					<tbody>
+						<tr>
+							<td><label for="name">Name</label></td>
+							<td><input type="text" name="name" id="name"></td>
+						</tr>
+						<tr>
+							<td><label for="password">Password</label></td>
+							<td><input type="password" name="password" id="password"></td>
+						</tr>
+						<tr>
+							<td><label for="age">Age</label></td>
+							<td><input type="number" name="age" id="age"></td>
+						</tr>
+						<tr>
+							<td>Your gender</td>
+							<td>
+								<input type="radio" name="gender" id="male" value="male"> <label for="male">Male</label>
+								<input type="radio" name="gender" id="female" value="female"> <label for="female">Female</label>
+							</td>
+						</tr>
+						<tr>
+							<td>Education</td>
+							<td>
+								<input type="checkbox" name="education" id="school" value="school"> <label
+									for="school">School</label>
+								<input type="checkbox" name="education" id="bachelor" value="bachelor"> <label
+									for="bachelor">Bachelor</label>
+								<input type="checkbox" name="education" id="master" value="master"> <label
+									for="master">Master</label>
+								<input type="checkbox" name="education" id="phd" value="phd"> <label for="phd">PhD</label>
+							</td>
+						</tr>
+						<tr>
+							<td colspan="2">
+								<input type="reset" value="Clear me">
+								<input type="submit" value="Send now!">
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</form>
+		</section>
+	</main>
+</body>
+
+</html>
